@@ -2,20 +2,48 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 300ms ease-in;
+
+}
+
+.yellow {
+    color: rgb(255, 212, 59);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
 .navbar .logo {
     height: 40px;
-    width: 150px;
     text-align: left;
     justify-content: space-between;
     align-items: center;
     display: flex;
     flex-direction: row;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
-.logoname {
+.logo {
+    display: flex;
+    justify-content: space-between;
     font-size: 32px;
-    color: #151506;
+    color: rgb(255, 212, 59);
     font-weight: 400;
     font-style: bold;
 }
@@ -36,17 +64,16 @@ body {
 }
 
 .btn-contact {
-    min-height: 48px;
     max-height: 48px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 12px 40px;
+    padding: 12px 32px;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: rgb(225, 225, 4);
+    background-color: rgb(255, 212, 59);
     border: 2px , yellow;
     border-radius: 50px;
     color: #fff !important;
@@ -63,3 +90,54 @@ body {
 
 
 
+/* BODY */
+
+.heading {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: rgb(255, 212, 59);
+    font-style: bold;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.subheading {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #26023b;
+    font-weight: 600;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+.input {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid #26023b;
+    background-color: #fff;
+    display: inline-block;
+    height: 70px;
+    outline: none;
+    padding: 0 15px;
+    transition: border-color 200ms;
+    width: 50%;
+    font-size: 24px;
+    padding-left: 25px;
+}
+
+.input__wrapper--btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+
+}
