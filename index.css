@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .logo {
+    height: 40px;
+    width: 150px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 0px;
+}
+
+.logoname {
+    font-size: 32px;
+    color: #151506;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.navbar .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+    display: flex;
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between !important; 
+}
+
+.btn-contact {
+    min-height: 48px;
+    max-height: 48px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 12px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgb(225, 225, 4);
+    border: 2px , yellow;
+    border-radius: 50px;
+    color: #fff !important;
+    transition: all 300ms ease;   
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
